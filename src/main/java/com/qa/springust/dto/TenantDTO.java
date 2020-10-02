@@ -1,6 +1,5 @@
 package com.qa.springust.dto;
 
-import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -8,20 +7,20 @@ import lombok.Setter;
 import lombok.ToString;
 
 @NoArgsConstructor
-@AllArgsConstructor
 @Getter
 @Setter
 @ToString
 @EqualsAndHashCode
-public class GuitaristDTO {
+public class TenantDTO {
 	
 	//D - Data
 	//T - Transfer
 	//O - Object
 
-	private long id;
-	private String name;
-	private int noOfStrings;
-	private String type;
+	private Long id;
+	private String firstName;
+	private String lastName;
+	private Integer age;
+	private Integer roomNo;
 	
 }
